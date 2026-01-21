@@ -1,0 +1,24 @@
+/**
+ * Editor-only styles for Donation QR Block.
+ */
+.donation-qr-block__qr-placeholder {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #e5e7eb;
+	border: 2px dashed #9ca3af;
+	border-radius: 0.25rem;
+	color: #6b7280;
+
+	span {
+		font-weight: 600;
+	}
+
+	small {
+		font-size: 0.75rem;
+		margin-top: 0.25rem;
+	}
+}

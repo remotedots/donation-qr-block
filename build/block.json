@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "donation-qr/block",
+  "version": "1.0.0",
+  "title": "Donation QR Code",
+  "category": "widgets",
+  "icon": "money-alt",
+  "description": "Display an EPC/GiroCode QR code for SEPA bank donations.",
+  "keywords": [
+    "donation",
+    "qr",
+    "sepa",
+    "girocode",
+    "bank",
+    "transfer",
+    "spende"
+  ],
+  "textdomain": "donation-qr-block",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "recipient": {
+      "type": "string",
+      "default": ""
+    },
+    "bankName": {
+      "type": "string",
+      "default": ""
+    },
+    "iban": {
+      "type": "string",
+      "default": ""
+    },
+    "bic": {
+      "type": "string",
+      "default": ""
+    },
+    "reference": {
+      "type": "string",
+      "default": "Donation"
+    },
+    "amount": {
+      "type": "number",
+      "default": 5
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#f9fafb"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

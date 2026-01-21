@@ -1,0 +1,38 @@
+{
+    "translation-revision-date": "2024-01-21T10:00:00+00:00",
+    "generator": "WP-CLI",
+    "source": "src/edit.js",
+    "domain": "donation-qr-block",
+    "locale_data": {
+        "donation-qr-block": {
+            "": {
+                "domain": "donation-qr-block",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Content": ["Inhalt"],
+            "Title": ["Titel"],
+            "Optional heading above the QR code": ["Optionale Überschrift über dem QR-Code"],
+            "Description": ["Beschreibung"],
+            "Optional text below the title": ["Optionaler Text unter dem Titel"],
+            "Bank Details": ["Bankverbindung"],
+            "Recipient": ["Empfänger"],
+            "Bank Name": ["Bank"],
+            "IBAN": ["IBAN"],
+            "BIC": ["BIC"],
+            "Reference": ["Verwendungszweck"],
+            "Payment reference text (e.g., \"Donation\")": ["Text für den Verwendungszweck (z.B. \"Spende\")"],
+            "Amount (EUR)": ["Betrag (EUR)"],
+            "Default amount in EUR (0 = donor chooses)": ["Standardbetrag in EUR (0 = Spender wählt selbst)"],
+            "Color": ["Farbe"],
+            "Background": ["Hintergrund"],
+            "QR code for bank transfer": ["QR-Code für Banküberweisung"],
+            "Generating...": ["Wird generiert..."],
+            "Configure bank details": ["Bankverbindung konfigurieren"],
+            "Recipient:": ["Empfänger:"],
+            "Bank:": ["Bank:"],
+            "IBAN:": ["IBAN:"],
+            "BIC:": ["BIC:"]
+        }
+    }
+}

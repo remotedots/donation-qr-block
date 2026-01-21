@@ -1,0 +1,37 @@
+# Directories
+/.git
+/.github
+/.wordpress-org
+/node_modules
+/src
+/tests
+
+# Files
+README.md
+/.distignore
+/.gitignore
+/.editorconfig
+/.eslintrc
+/.prettierrc
+/composer.json
+/composer.lock
+/package.json
+/package-lock.json
+/phpcs.xml
+/phpunit.xml
+/webpack.config.js
+/.babelrc
+
+# IDE
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development
+*.map
+*.log

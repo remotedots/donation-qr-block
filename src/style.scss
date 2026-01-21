@@ -1,0 +1,74 @@
+/**
+ * Frontend + Editor styles for Donation QR Block.
+ */
+.donation-qr-block {
+	max-width: 680px;
+	margin: 4rem auto;
+	padding: 0 1rem;
+}
+
+.donation-qr-block__inner {
+	border-radius: 0.5rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.donation-qr-block__title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0 0 1rem;
+}
+
+.donation-qr-block__description {
+	color: #4b5563;
+	margin: 0 0 1.5rem;
+}
+
+.donation-qr-block__qr-wrapper {
+	display: inline-block;
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1.5rem;
+
+	img {
+		display: block;
+	}
+}
+
+.donation-qr-block__details {
+	text-align: left;
+	max-width: 280px;
+	margin: 0 auto;
+	font-size: 0.875rem;
+	color: #374151;
+}
+
+.donation-qr-block__detail {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 0.25rem;
+
+	dt {
+		font-weight: 600;
+		white-space: nowrap;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	code {
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+		font-size: 0.75rem;
+		background: transparent;
+		padding: 0;
+	}
+}
+
+.donation-qr-block__hint {
+	margin-top: 1.5rem;
+	font-size: 0.75rem;
+	color: #6b7280;
+}

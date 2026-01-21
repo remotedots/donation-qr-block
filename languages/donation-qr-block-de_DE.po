@@ -1,0 +1,128 @@
+# German translation for Donation QR Block
+# Copyright (C) 2024 remotedots.com
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Donation QR Block 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/remotedots/donation-qr-block\n"
+"Last-Translator: remotedots.com\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-21T10:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-21T10:00:00+00:00\n"
+"X-Generator: WP-CLI\n"
+"X-Domain: donation-qr-block\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: donation-qr-block.php
+msgid "Donation QR Block"
+msgstr "Spenden-QR-Block"
+
+#. Description of the plugin
+#: donation-qr-block.php
+msgid "Display an EPC/GiroCode QR code for SEPA bank donations."
+msgstr "Zeigt einen EPC/GiroCode QR-Code für SEPA-Banküberweisungen an."
+
+#: src/edit.js
+msgid "Content"
+msgstr "Inhalt"
+
+#: src/edit.js
+msgid "Title"
+msgstr "Titel"
+
+#: src/edit.js
+msgid "Optional heading above the QR code"
+msgstr "Optionale Überschrift über dem QR-Code"
+
+#: src/edit.js
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/edit.js
+msgid "Optional text below the title"
+msgstr "Optionaler Text unter dem Titel"
+
+#: src/edit.js
+msgid "Bank Details"
+msgstr "Bankverbindung"
+
+#: src/edit.js
+msgid "Recipient"
+msgstr "Empfänger"
+
+#: src/edit.js
+msgid "Bank Name"
+msgstr "Bank"
+
+#: src/edit.js
+msgid "IBAN"
+msgstr "IBAN"
+
+#: src/edit.js
+msgid "BIC"
+msgstr "BIC"
+
+#: src/edit.js
+msgid "Reference"
+msgstr "Verwendungszweck"
+
+#: src/edit.js
+msgid "Payment reference text (e.g., \"Donation\")"
+msgstr "Text für den Verwendungszweck (z.B. \"Spende\")"
+
+#: donation-qr-block.php
+msgid "Donation"
+msgstr "Spende"
+
+#: src/edit.js
+msgid "Amount (EUR)"
+msgstr "Betrag (EUR)"
+
+#: src/edit.js
+msgid "Default amount in EUR (0 = donor chooses)"
+msgstr "Standardbetrag in EUR (0 = Spender wählt selbst)"
+
+#: src/edit.js
+msgid "Color"
+msgstr "Farbe"
+
+#: src/edit.js
+msgid "Background"
+msgstr "Hintergrund"
+
+#: src/edit.js
+msgid "QR code for bank transfer"
+msgstr "QR-Code für Banküberweisung"
+
+#: src/edit.js
+msgid "Generating..."
+msgstr "Wird generiert..."
+
+#: src/edit.js
+msgid "Configure bank details"
+msgstr "Bankverbindung konfigurieren"
+
+#: src/edit.js donation-qr-block.php
+msgid "Recipient:"
+msgstr "Empfänger:"
+
+#: src/edit.js donation-qr-block.php
+msgid "Bank:"
+msgstr "Bank:"
+
+#: src/edit.js donation-qr-block.php
+msgid "IBAN:"
+msgstr "IBAN:"
+
+#: src/edit.js donation-qr-block.php
+msgid "BIC:"
+msgstr "BIC:"
+
+#: donation-qr-block.php
+msgid "Scan the QR code with your banking app to prepare a transfer."
+msgstr "Scannen Sie den QR-Code mit Ihrer Banking-App, um eine Überweisung vorzubereiten."
