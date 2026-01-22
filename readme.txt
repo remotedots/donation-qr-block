@@ -117,3 +117,7 @@ Initial release of Donation QR Block.
 == Privacy Policy ==
 
 This plugin does not collect, store, or transmit any personal data. All QR code generation happens locally on your server and in users' browsers. No external API calls are made.
+
+== Disclaimer ==
+
+This plugin is provided as-is without any warranty. The author is not responsible for any financial losses, incorrect transfers, or other damages resulting from the use of this plugin. Users are solely responsible for verifying that all bank details (IBAN, BIC, recipient name, amount) are correct before publishing. Always test QR codes with your banking app before making them publicly available.
