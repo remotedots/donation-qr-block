@@ -27,18 +27,6 @@ define( 'DONATION_QR_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DONATION_QR_BLOCK_URL', plugin_dir_url( __FILE__ ) );
 
 /**
- * Load plugin textdomain.
- */
-function donation_qr_block_load_textdomain() {
-    load_plugin_textdomain(
-        'donation-qr-block',
-        false,
-        dirname( plugin_basename( __FILE__ ) ) . '/languages'
-    );
-}
-add_action( 'init', 'donation_qr_block_load_textdomain' );
-
-/**
  * Register the block.
  */
 function donation_qr_block_init() {
