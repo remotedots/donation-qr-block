@@ -12,7 +12,7 @@
 		"lint:js": "wp-scripts lint-js",
 		"lint:css": "wp-scripts lint-style",
 		"packages-update": "wp-scripts packages-update",
-		"plugin-zip": "wp-scripts plugin-zip"
+		"plugin-zip": "wp-scripts plugin-zip && zip -ur donation-qr-block.zip vendor/"
 	},
 	"devDependencies": {
 		"@babel/runtime": "^7.28.6",
