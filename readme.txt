@@ -3,7 +3,7 @@ Contributors: remotedots
 Tags: donation, qr code, sepa, girocode, bank transfer
 Requires at least: 6.0
 Tested up to: 6.9
-Requires PHP: 7.4
+Requires PHP: 8.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,7 +50,7 @@ Supported in 36 SEPA countries including: Germany, Austria, Belgium, Netherlands
 = Requirements =
 
 * WordPress 6.0 or higher
-* PHP 7.4 or higher
+* PHP 8.1 or higher
 * For frontend QR code display: `endroid/qr-code` Composer package (recommended)
 
 Note: Without the QR code library, the block will display bank details only (no QR code). The editor preview always shows the QR code.
@@ -98,6 +98,28 @@ Yes. You can set a default amount in EUR via the block settings. The default is 
 1. The Donation QR Block in the Gutenberg editor with live preview
 2. Block settings panel with bank details configuration
 3. Frontend display of the donation QR code
+
+== Source Code & Development ==
+
+The full source code for this plugin is available on GitHub:
+https://github.com/remotedots/donation-qr-block
+
+The `/build` directory contains compiled JavaScript and CSS assets generated from source files in the `/src` directory using `@wordpress/scripts`.
+
+= Building from Source =
+
+1. Clone the repository: `git clone https://github.com/remotedots/donation-qr-block.git`
+2. Install dependencies: `npm install`
+3. Build assets: `npm run build`
+4. Install PHP dependencies: `composer install --no-dev`
+
+= Source Files =
+
+* `/src/index.js` - Block registration
+* `/src/edit.js` - Editor component (React)
+* `/src/editor.scss` - Editor styles
+* `/src/style.scss` - Frontend styles
+* `/src/block.json` - Block metadata
 
 == Changelog ==
 

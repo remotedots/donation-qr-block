@@ -5,7 +5,7 @@
  * Description:       Display an EPC/GiroCode QR code for SEPA bank donations.
  * Version:           1.0.0
  * Requires at least: 6.0
- * Requires PHP:      7.4
+ * Requires PHP:      8.1
  * Author:            remotedots
  * Author URI:        https://remotedots.com
  * License:           GPL-2.0-or-later

@@ -42,14 +42,21 @@ Supported in 36 SEPA countries including: Germany, Austria, Belgium, Netherlands
 ### Requirements
 
 - WordPress 6.0 or higher
-- PHP 7.4 or higher
+- PHP 8.1 or higher
 - For frontend QR code display: `endroid/qr-code` Composer package (recommended)
 
 > **Note:** Without the QR code library, the block will display bank details only (no QR code). The editor preview always shows the QR code.
 
 ## Development
 
+The `/build` directory contains compiled JavaScript and CSS assets generated from source files in the `/src` directory using `@wordpress/scripts`.
+
+### Building from Source
+
 ```bash
+# Clone the repository
+git clone https://github.com/remotedots/donation-qr-block.git
+
 # Install dependencies
 npm install
 
@@ -58,7 +65,18 @@ npm run build
 
 # Watch for changes during development
 npm run start
+
+# Install PHP dependencies
+composer install --no-dev
 ```
+
+### Source Files
+
+- `/src/index.js` - Block registration
+- `/src/edit.js` - Editor component (React)
+- `/src/editor.scss` - Editor styles
+- `/src/style.scss` - Frontend styles
+- `/src/block.json` - Block metadata
 
 ## FAQ
 
