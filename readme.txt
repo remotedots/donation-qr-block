@@ -4,7 +4,7 @@ Tags: donation, qr code, sepa, girocode, bank transfer
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -123,6 +123,9 @@ The `/build` directory contains compiled JavaScript and CSS assets generated fro
 
 == Changelog ==
 
+= 1.0.2 =
+* Improve German (de_DE) translation: use informal (du) register and correct typography
+
 = 1.0.1 =
 * Fix PHP-side translations by calling load_plugin_textdomain() on init
 
@@ -135,6 +138,9 @@ The `/build` directory contains compiled JavaScript and CSS assets generated fro
 * Client-side QR code generation for editor preview
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Improves German translation quality.
 
 = 1.0.1 =
 Fixes PHP-side translations not loading on the frontend.
