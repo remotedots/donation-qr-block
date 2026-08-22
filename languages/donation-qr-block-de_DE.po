@@ -73,7 +73,7 @@ msgstr "Verwendungszweck"
 
 #: src/edit.js
 msgid "Payment reference text (e.g., \"Donation\")"
-msgstr "Text für den Verwendungszweck (z.B. \"Spende\")"
+msgstr "Text für den Verwendungszweck (z. B. „Spende“)"
 
 #: donation-qr-block.php
 msgid "Donation"
@@ -125,4 +125,4 @@ msgstr "BIC:"
 
 #: donation-qr-block.php
 msgid "Scan the QR code with your banking app to prepare a transfer."
-msgstr "Scannen Sie den QR-Code mit Ihrer Banking-App, um eine Überweisung vorzubereiten."
+msgstr "Scanne den QR-Code mit deiner Banking-App, um eine Überweisung vorzubereiten."
