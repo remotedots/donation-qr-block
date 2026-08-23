@@ -4,7 +4,7 @@ Tags: donation, qr code, sepa, girocode, bank transfer
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -123,6 +123,11 @@ The `/build` directory contains compiled JavaScript and CSS assets generated fro
 
 == Changelog ==
 
+= 1.0.3 =
+* Confirm compatibility with WordPress 7.1
+* Remove load_plugin_textdomain() call now that translations are approved on translate.wordpress.org and load automatically
+* Suppress a false-positive escaping warning on get_block_wrapper_attributes(), which escapes its own output
+
 = 1.0.2 =
 * Improve German (de_DE) translation: use informal (du) register and correct typography
 
@@ -138,6 +143,9 @@ The `/build` directory contains compiled JavaScript and CSS assets generated fro
 * Client-side QR code generation for editor preview
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Confirms WordPress 7.1 compatibility and cleans up translation loading.
 
 = 1.0.2 =
 Improves German translation quality.

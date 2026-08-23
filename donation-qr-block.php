@@ -3,7 +3,7 @@
  * Plugin Name:       Donation QR Block
  * Plugin URI:        https://github.com/remotedots/donation-qr-block
  * Description:       Display an EPC/GiroCode QR code for SEPA bank donations.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 6.0
  * Requires PHP:      8.1
  * Author:            remotedots
@@ -22,7 +22,7 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
     require_once __DIR__ . '/vendor/autoload.php';
 }
 
-define( 'DONATION_QR_BLOCK_VERSION', '1.0.2' );
+define( 'DONATION_QR_BLOCK_VERSION', '1.0.3' );
 define( 'DONATION_QR_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DONATION_QR_BLOCK_URL', plugin_dir_url( __FILE__ ) );
 
