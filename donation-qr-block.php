@@ -30,8 +30,6 @@ define( 'DONATION_QR_BLOCK_URL', plugin_dir_url( __FILE__ ) );
  * Register the block.
  */
 function donation_qr_block_init() {
-    load_plugin_textdomain( 'donation-qr-block', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-
     register_block_type( DONATION_QR_BLOCK_PATH . 'build', array(
         'render_callback' => 'donation_qr_block_render',
     ) );
@@ -66,7 +64,7 @@ function donation_qr_block_render( $attributes ) {
 
     ob_start();
     ?>
-    <section <?php echo get_block_wrapper_attributes( array( 'class' => 'donation-qr-block' ) ); ?>>
+    <section <?php echo get_block_wrapper_attributes( array( 'class' => 'donation-qr-block' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- get_block_wrapper_attributes() escapes its own output. ?>>
         <div class="donation-qr-block__inner" style="background-color: <?php echo esc_attr( $background_color ); ?>">
             <?php if ( ! empty( $title ) ) : ?>
                 <h2 class="donation-qr-block__title"><?php echo esc_html( $title ); ?></h2>
