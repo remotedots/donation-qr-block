@@ -2,7 +2,7 @@
 Contributors: remotedots
 Tags: donation, qr code, sepa, girocode, bank transfer
 Requires at least: 6.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 8.1
 Stable tag: 1.0.2
 License: GPLv2 or later
