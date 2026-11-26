@@ -12,6 +12,8 @@
 		"lint:js": "wp-scripts lint-js",
 		"lint:css": "wp-scripts lint-style",
 		"packages-update": "wp-scripts packages-update",
+		"playground": "npx -y @wp-playground/cli@latest server --wp=beta --php=8.4 --mount=.:/wordpress/wp-content/plugins/donation-qr-block --blueprint=./blueprint.json",
+		"playground:stable": "npx -y @wp-playground/cli@latest server --wp=latest --php=8.4 --mount=.:/wordpress/wp-content/plugins/donation-qr-block --blueprint=./blueprint.json",
 		"plugin-zip": "wp-scripts plugin-zip && zip -ur donation-qr-block.zip vendor/ src/ composer.json package.json && mkdir -p dist && mv donation-qr-block.zip dist/"
 	},
 	"devDependencies": {

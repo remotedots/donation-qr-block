@@ -12,6 +12,7 @@ README.md
 /.editorconfig
 /.eslintrc
 /.prettierrc
+/blueprint.json
 /composer.json
 /composer.lock
 /package.json
