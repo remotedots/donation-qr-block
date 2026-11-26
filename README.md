@@ -2,6 +2,8 @@
 
 Display an EPC/GiroCode QR code for SEPA bank donations. Scannable by banking apps to pre-fill transfer details.
 
+**[Download on WordPress.org](https://wordpress.org/plugins/donation-qr-block/)**
+
 ## Description
 
 Donation QR Block adds a Gutenberg block that displays an EPC/GiroCode QR code for accepting SEPA bank donations. When scanned with a banking app, the QR code pre-fills all transfer details (recipient, IBAN, BIC, reference) - making it easy for supporters to donate.
@@ -32,6 +34,10 @@ Supported in 36 SEPA countries including: Germany, Austria, Belgium, Netherlands
 - Any organization accepting SEPA bank transfers
 
 ## Installation
+
+The easiest way is to install it from the [WordPress.org plugin directory](https://wordpress.org/plugins/donation-qr-block/): in your WordPress admin, go to **Plugins → Add New**, search for "Donation QR Block", then install and activate it.
+
+To install manually:
 
 1. Upload the `donation-qr-block` folder to `/wp-content/plugins/`
 2. Activate the plugin through the 'Plugins' menu in WordPress
