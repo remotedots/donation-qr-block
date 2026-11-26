@@ -70,6 +70,17 @@ npm run start
 composer install --no-dev
 ```
 
+### Testing in WordPress Playground
+
+Spin up a throwaway WordPress site with this folder mounted as the plugin (no Docker or database needed):
+
+```bash
+npm run playground          # latest WordPress beta/RC
+npm run playground:stable   # latest stable WordPress
+```
+
+`blueprint.json` enables `WP_DEBUG`, activates the plugin, installs Plugin Check, and creates a test page with a pre-filled block (opened on start, logged in as admin). Run `npm run build` and `composer install` first so `build/` and `vendor/` exist. The site resets when the server stops.
+
 ### Source Files
 
 - `/src/index.js` - Block registration
