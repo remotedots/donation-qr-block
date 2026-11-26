@@ -131,6 +131,20 @@ Yes. You can set a default amount in EUR via the block settings. The default is 
 
 ## Changelog
 
+### 1.0.4
+- Confirm compatibility with WordPress 7.2
+
+### 1.0.3
+- Confirm compatibility with WordPress 7.1
+- Remove load_plugin_textdomain() call now that translations are approved on translate.wordpress.org and load automatically
+- Suppress a false-positive escaping warning on get_block_wrapper_attributes(), which escapes its own output
+
+### 1.0.2
+- Improve German (de_DE) translation: use informal (du) register and correct typography
+
+### 1.0.1
+- Fix PHP-side translations by calling load_plugin_textdomain() on init
+
 ### 1.0.0
 - Initial release
 - Native Gutenberg block with live QR code preview
